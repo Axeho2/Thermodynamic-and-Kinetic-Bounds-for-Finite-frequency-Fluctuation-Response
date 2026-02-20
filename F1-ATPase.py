@@ -285,9 +285,9 @@ for i in range(n_states):
 
 
 
-T = 100.0
+T = 50.0
 dt = 0.1
-n_traj = 100000
+n_traj = 400000
 
 traj = generate_trajectories(R, pi_ss, T, dt, n_traj)
 Q_rate, Lambda_b_rate, Lambda_f_rate = compute_rates(traj, R, dt)
